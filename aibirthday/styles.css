@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff69b4;
+}
+
+p, ul {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f8f8f8;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#photoGallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#photoGallery img {
+    width: 30%; /* Ukuran gambar menjadi 30% dari lebar container */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover; /* Memastikan gambar tetap dalam orientasi potrait */
+}
+
+#music {
+    text-align: center;
+}
+
+#playButton {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease; /* Tambahkan transisi untuk efek gerak */
+}
+
+#playButton:active {
+    transform: scale(0.95); /* Efek saat tombol ditekan */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
